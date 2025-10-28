@@ -16,7 +16,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-![](./assets/images/fm-%20blog-preview-card.png)
+![](./assets/images/fm-blog-preview-card.png)
 
 
 ### Links
