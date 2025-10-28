@@ -104,6 +104,9 @@ section a:hover {
     align-items: center;
     justify-content: flex-start;
     gap: 0.7rem;
+    /*margin-bottom: 1rem;*/
+    margin-block-end: 1.2rem;
+    writing-mode: horizontal-tb;
 }
 
 
@@ -141,7 +144,7 @@ section a:hover {
 
 
     .date-published {
-        font-size: 1rem;
+        font-size: min(1rem, 1.5rem);
         /*margin-bottom: 1.5rem;*/
         margin-block-end: 1.5rem;
         writing-mode: horizontal-tb;
@@ -153,10 +156,16 @@ section a:hover {
 
     .blog-intro {
         font-size: 1.5rem;
-        line-height: 1.4;
+        line-height: 1.5;
         /*margin-top: 1.5rem;*/
         margin-block-start: 1.5rem;
         writing-mode: horizontal-tb;
+    }
+
+    .author {
+      /*margin-bottom: 1rem;*/
+      margin-block-end: 1.1rem;
+      writing-mode: horizontal-tb;
     }
 
 }
@@ -186,7 +195,7 @@ section a:hover {
     .blog-section{
         width: 4rem;
         /*margin-bottom: 0.6rem;*/
-        margin-block-end: 0.6rem;
+        margin-block-end: 0.8rem;
         writing-mode: horizontal-tb;
     }
 
@@ -205,10 +214,15 @@ section a:hover {
 
     .blog-intro {
         font-size: 0.9rem;
-        line-height: 1.4;
+        line-height: 1.5;
         /*margin-top: 0.8rem;*/
         margin-block-start: 0.8rem;
         writing-mode: horizontal-tb;
     }
+
+    .author {
+      /*margin-bottom: 1rem;*/
+      margin-block-end: 1.2rem;
+      writing-mode: horizontal-tb;
+    }
 }
-    
