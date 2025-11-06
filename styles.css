@@ -133,7 +133,7 @@ h1 a:hover {
     main {
         width: 65%;
         max-width: 32rem;
-        height: auto;
+        height: 32.625rem;
         padding: 2rem;
         box-shadow: 0.5rem 0.5rem 0.1rem var(--color-slate-950);
     }
@@ -170,7 +170,7 @@ h1 a:hover {
     main {
         width: 50%;
         max-width: 24rem;
-        height: auto;
+        height: 32.625rem;
         padding: 1.5rem;
         box-shadow: 0.5rem 0.5rem 0.1rem var(--color-slate-950);
     }   
