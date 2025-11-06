@@ -33,10 +33,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 
 ### What I learned
-- I had a better understanding of block and inline elements
+- I had a better understanding of block and inline elements.
 - I understood the concept of breakpoints, especially, when it comes to writing media queries.
 - I learned that flexbox is used for one dimensional layout and it's very flexible/responsive.
-- I implemented the mobile first design,before writing media queries for larger screens (i.e. tablets and desktops).
+- I implemented the mobile first design, before writing media queries for larger screens (i.e. tablets and desktops).
 - I struggled in making the Author's name align in the middle or centre of the Author's display picture. Then I decided to try a trick and it worked. The trick was to give both name and image a margin of zero (0).
 
 ```css
