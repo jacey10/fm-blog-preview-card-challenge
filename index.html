@@ -2,47 +2,42 @@
 <html lang="en">
  <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
    <title>Frontend Mentor | Blog preview card</title>
-
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
+   <link rel="preload" href="assets/fonts/figtree-v9-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="assets/fonts/figtree-v9-latin-800.woff2" as="font" type="font/woff2" crossorigin>
    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
     <main>
-      <img class="illustration" src="assets/images/illustration-article.svg" alt="An illustration for the article">
+      <img class="main__illustration" src="assets/images/illustration-article.svg" alt="" width="336" height="201">
 
-      <p class="blog-section">Learning</p>
-      <p class="date-published">
-      Published <time datetime="2023-12-21">21 Dec 2023</time>
+      <p class="main__tag">Learning</p>
+      <p class="main__date">
+      Published <time class="main__time" datetime="2023-12-21">21 Dec 2023</time>
       </p>
 
-      <h1 class="blog-title">
-       <a href="#">HTML & CSS foundations</a>
-      </h1>
+      <section class="main__section">
+        <h1 class="main__title">
+          <a class="main__title--link" href="#">HTML & CSS foundations</a>
+        </h1>
 
-      <section>
-        <p class="blog-intro">
+        <p class="main__description">
          These languages are the backbone of every website, defining structure, content, and presentation.
         </p>
       </section>
 
-      <section class="author">
-        <img src="assets/images/image-avatar.webp" alt="Image of Author">
+      <div class="main__author">
+        <img class="main__author--image" src="assets/images/image-avatar.webp" alt="" width="64" height="65">
         <p>Greg Hooper</p>
-      </section>
+      </div>
     </main>
   
     <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Jacey</a>.
+      Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="attribution__link" href="#">Jacey</a>.
     </footer>
   </body>
 </html>
