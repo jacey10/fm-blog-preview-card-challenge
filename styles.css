@@ -159,7 +159,7 @@ main {
 @media  screen and (min-width:48rem) {
     main {
         width: 60%;
-        max-width: 32rem;
+        max-width: 30rem;
         height: auto;
         padding: 2rem;
     }
