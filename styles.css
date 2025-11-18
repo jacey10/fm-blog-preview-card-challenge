@@ -43,12 +43,17 @@ video {
     --main-font: 'Figtree', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    min-height: 100svh;
     background-color: var(--color-yellow);
     font-family: var(--main-font);
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -134,7 +139,7 @@ main {
     margin: 0;
 }
 
-.attribution {
+/*.attribution {
     font-size: 0.7rem;
     text-align: center;
     margin-block-start: 1.2rem;
@@ -146,7 +151,7 @@ main {
 
 .attribution__link:hover {
     color: var(--color-white);
-}
+}*/
 
 
 @media (prefers-reduced-motion: reduce) {
